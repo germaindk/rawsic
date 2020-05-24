@@ -9,7 +9,7 @@ import os
 
 
 bot = commands.Bot(command_prefix='&')
-YOUTUBE_API = 'os.environ['YOUTUBE_TOKEN']'
+YOUTUBE_API = 'AIzaSyDnG5orAUg09IQKUuDfzXNu93nyD3i5I3E'
 
 
 bot.remove_command('help')
@@ -308,4 +308,4 @@ async def songs(msg):
             await bot.say("Currently no songs in queue")
 
 
-bot.run('os.environ['DISCORD_TOKEN']')
+bot.run('NzEzMzcyMjAwNDEzMDM2NTc0.XspcFg.TOt58PYYkLoGktXDZ1r_R6tVUUU')
